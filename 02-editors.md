@@ -81,7 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I will be using Vi because I have past experience using it. I like a lot of the keyboard shortcuts and the minimalist feel to it as well.
 
 --
 
@@ -89,6 +89,6 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I will be using Vi because, again, I have past experience using it. I appreciate the fact that Vi has a lot of keyboard shortcuts. Examples include typing the "$" sign will move the cursor to the end of the line and typing ":wq" to write the file and quit the program. The search and replace commands are really powerful as well. I'm not sure in what ways I would prefer to customize my editor yet. I might tinker around with the color settings to get syntax highlighting within Vi for python in the future.
 
  
