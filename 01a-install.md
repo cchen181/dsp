@@ -48,13 +48,13 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Python 3. The pre-work is configured for Python 3 and I'd prefer to stick with one version of Python versus switching around between the two. Additionally, I've used both versions of Python before and have noticed slight differences in commands between the two. Sticking to one version will help me strengthen my code faster.  
 
 ### Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Type 'python -V' on the command line. This works without the -V flag as well.
 
  
 
