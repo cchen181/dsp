@@ -8,18 +8,28 @@ tutorial](https://web.archive.org/web/20160708171659/http://cli.learncodethehard
 ### Q1.  Cheat Sheet of Commands  
 
 Here's a list of items with which you should be familiar:  
-* show current working directory path
-* creating a directory
-* deleting a directory
-* creating a file using `touch` command
-* deleting a file
-* renaming a file
-* listing hidden files
-* copying a file from one directory to another
+* show current working directory path X
+* creating a directory X
+* deleting a directory X
+* creating a file using `touch` command X
+* deleting a file X
+* renaming a file X
+* listing hidden files X
+* copying a file from one directory to another X
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 'pwd' shows current working directory path ('print working directory')
+'ls' lists files and directories within the current folder
+'cd' change directory. It switches you into the directory you specify
+'cd ..' moves you up a directory
+'mkdir' creates a directory ('make directory')
+'touch file.txt' creates a file.txt file using the 'touch' command
+'cp directory/file.txt newdirectory/' copies file.txt from directory to newdirectory (i.e. copying a file from one directory to another)
+'ls -a' lists hidden files and folders in current directory
+'mv file.txt newfilename.txt' renames a file (renames file.txt to newfilename.txt)
+'rm file.txt' deletes a file ('remove' file.txt)
+'rm -r directory/' deletes a directory ('remove recursively', which deletes a directory and all its child directories)
 
 ---
 
@@ -34,8 +44,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> > 'ls' lists files and directories within the current folder
+'ls -a' lists files and directories, *both hidden and not hidden*, within the current folder
+'ls -l' lists files and directories *in a long format* within the current folder
+'ls -lh' 
+'ls -lah'
+'ls -t' lists files and directories *by time last modified* within the current folder
+'ls -Glp'
 ---
 
 ### Q3.  More List Files in Unix  
