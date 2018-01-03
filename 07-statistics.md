@@ -87,25 +87,25 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
 >> Information provided:
-  * probability of fraternal twins = p(fraternal twins) = 1/125
-  * probability of identical twins = p(identical twins) = 1/300
-  * Elvis has a twin brother.
-  
-Question I seek to answer:
-  What is the probability Elvis is an identical twin?
-
-Bayes’ Theorem:
-  p(H|D) = (p(H) * p(D|H)) / p(D)
-
-The hypotheses are:
-  A. Elvis has a twin brother and is an identical twin.
-  B. Elvis has a twin brother and is a fraternal twin.
-
-Bayes’ Theorem for hypothesis A: The prior, or p(H) is 1/300. The likelihood, or p(D|H) is 1/2 because identical twins are always the same sex. Calculating the numerator of Bayes’ Theorem, p(H) * p(D|H) = (1/300) * (1/2) = 1/600. I multiply this value by the inverse of the normalizing constant to calculate p(H|D) and get 5/11. 5/11 is ~45%. In other words, the probability that Elvis is an identical twin is 45%.
-
-Bayes’ Theorem for hypothesis B: The prior, or p(H) is 1/125. The likelihood, or p(D|H) is (1/2) * (1/2) = 1/4 because the sex of one twin is independent of the other in the case of fraternal twins. Calculating the numerator of Bayes’ Theorem, p(H) * p(D|H) = (1/125) * (1/4) = 1/500. I multiply this value by the inverse of the normalizing constant to calculate p(H|D) and get 6/11.
-
-The normalizing constant, p(D), is the summation of the numerators for both hypothesis A and B. p(D) = 1/600 + 1/500. In other words, p(D) = 11/3000.
+>>  * probability of fraternal twins = p(fraternal twins) = 1/125
+>>  * probability of identical twins = p(identical twins) = 1/300
+>>  * Elvis has a twin brother.
+>>  
+>>Question I seek to answer:
+>>  What is the probability Elvis is an identical twin?
+>>
+>>Bayes’ Theorem:
+>>  p(H|D) = (p(H) * p(D|H)) / p(D)
+>>
+>>The hypotheses are:
+>>  A. Elvis has a twin brother and is an identical twin.
+>>  B. Elvis has a twin brother and is a fraternal twin.
+>>
+>>Bayes’ Theorem for hypothesis A: The prior, or p(H) is 1/300. The likelihood, or p(D|H) is 1/2 because identical twins are always the same sex. Calculating the numerator of Bayes’ Theorem, p(H) * p(D|H) = (1/300) * (1/2) = 1/600. I multiply this value by the inverse of the normalizing constant to calculate p(H|D) and get 5/11. 5/11 is ~45%. In other words, the probability that Elvis is an identical twin is 45%.
+>>
+>>Bayes’ Theorem for hypothesis B: The prior, or p(H) is 1/125. The likelihood, or p(D|H) is (1/2) * (1/2) = 1/4 because the sex of one twin is independent of the other in the case of fraternal twins. Calculating the numerator of Bayes’ Theorem, p(H) * p(D|H) = (1/125) * (1/4) = 1/500. I multiply this value by the inverse of the normalizing constant to calculate p(H|D) and get 6/11.
+>>
+>>The normalizing constant, p(D), is the summation of the numerators for both hypothesis A and B. p(D) = 1/600 + 1/500. In other words, p(D) = 11/3000.
 
 ---
 
