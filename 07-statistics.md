@@ -86,15 +86,33 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Information provided:
+  * probability of fraternal twins = p(fraternal twins) = 1/125
+  * probability of identical twins = p(identical twins) = 1/300
+  * Elvis has a twin brother.
+  
+Question I seek to answer:
+  What is the probability Elvis is an identical twin?
+
+Bayes’ Theorem:
+  p(H|D) = (p(H) * p(D|H)) / p(D)
+
+The hypotheses are:
+  A. Elvis has a twin brother and is an identical twin.
+  B. Elvis has a twin brother and is a fraternal twin.
+
+Bayes’ Theorem for hypothesis A: The prior, or p(H) is 1/300. The likelihood, or p(D|H) is 1/2 because identical twins are always the same sex. Calculating the numerator of Bayes’ Theorem, p(H) * p(D|H) = (1/300) * (1/2) = 1/600. I multiply this value by the inverse of the normalizing constant to calculate p(H|D) and get 5/11. 5/11 is ~45%. In other words, the probability that Elvis is an identical twin is 45%.
+
+Bayes’ Theorem for hypothesis B: The prior, or p(H) is 1/125. The likelihood, or p(D|H) is (1/2) * (1/2) = 1/4 because the sex of one twin is independent of the other in the case of fraternal twins. Calculating the numerator of Bayes’ Theorem, p(H) * p(D|H) = (1/125) * (1/4) = 1/500. I multiply this value by the inverse of the normalizing constant to calculate p(H|D) and get 6/11.
+
+The normalizing constant, p(D), is the summation of the numerators for both hypothesis A and B. p(D) = 1/600 + 1/500. In other words, p(D) = 11/3000.
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
+>> Frequentism and Bayesianism are different frameworks for statistical inference. Differences in approach for the two frameworks is a result of differences in the definition of probability. To frequentists, probability is defined by the frequency of events. To Bayesians, probability is defined by the statistician's own knowledge about an event. While the two frameworks for statistical inference may lead to the same solution for simple problems, there are situations where the difference in the two approaches is highlighted. These cases involve the treatment of nuisance parameters and the handling of uncertainty. For frequentists, uncertainty is addressed using confidence intervals whereas credible regions are used by Bayesians. Confidence intervals are conceptually different from credible regions and one should take care that confidence intervals are not misinterpreted. [Reference: VanderPlas, Proc. of the 13th Python in Science Conf. (2014)]  
 ---
 
 ## <a name="section-e"></a>5.  Optional Exercises
