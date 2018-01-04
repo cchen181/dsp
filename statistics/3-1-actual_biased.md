@@ -24,7 +24,7 @@ def pmf2distmean(n, pmf):
 df = nsfg.ReadFemResp()
 df.columns
 #columns of interest: 
-'''df.numkdhh -> NUMBER OF BIO/ADOPT/RELATED/LEGAL CHILDREN UNDER AGE 18 IN HOUSEHOLD'''
+#df.numkdhh -> NUMBER OF BIO/ADOPT/RELATED/LEGAL CHILDREN UNDER AGE 18 IN HOUSEHOLD
 
 nChildSeries = df[‘numkdhh’]
 nChildSeriesFreq = nChildSeries.value_counts()
@@ -68,6 +68,7 @@ plt.ylim(0, 0.5)
 plt.legend()
 plt.show()
 ```
-
+  
+  
 The plot of both distributions is shown below.  
 ![3-1 figure](../img/3_1_actual_biased.png) 
