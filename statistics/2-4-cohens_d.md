@@ -1,12 +1,11 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
->> #####Q2. Think Stats, Chapter 2 Exercise 4
-
->>##Statement of problem
+>> #####Q2. Think Stats, Chapter 2 Exercise 4  
+>>##Statement of problem  
 >>Using data from The National Survey of Family Growth, I need to determine whether first born babies are heavier than non-first born babies or not. This investigation is expanded to determine the extent of the difference between the first borns and non-first borns. Then, compare the Cohen’s d value to the difference in pregnancy length.
 >>
->>##Solution
->>#to determine whether first born babies are heavier than non-first born babies or not
+>>##Solution  
+>>#to determine whether first born babies are heavier than non-first born babies or not  
 >>#This question relates to the concept of central tendency. I address this using the mean() function in pandas.
 
 ```
