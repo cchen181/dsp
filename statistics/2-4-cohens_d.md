@@ -8,7 +8,7 @@
 >>#to determine whether first born babies are heavier than non-first born babies or not
 >>#This question relates to the concept of central tendency. I address this using the mean() function in pandas.
 
-'''
+```
 import nsfg
 
 df = nsfg.ReadFemPreg()
@@ -64,6 +64,6 @@ ratio = dweight / dpreg
 print(‘ratio of Cohen’s d for weight to pregnancy length:’)
 print(ratio) #-3.0704937830739034
 print(‘The Cohen’s d for the weight of first borns to non-first borns is -3.070 times larger in comparison to the Cohen’s d for pregnancy length.’)
-'''
+```
 
 
