@@ -70,5 +70,4 @@ plt.show()
 ```
 
 The plot of both distributions is shown below.  
-![3-1 figure]
-(../img/3_1_actual_biased.png) 
+![3-1 figure](../img/3_1_actual_biased.png) 
